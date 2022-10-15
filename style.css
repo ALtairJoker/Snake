@@ -1,0 +1,54 @@
+* {
+    font-family: 'Silkscreen', cursive;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+    
+    
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#empieza, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#empieza {
+    background-color: crimson;
+    border: none;
+    color: white;
+}
+
+#puntaje {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: darkcyan;
+}
+
+.snakeSquare {
+    background-color: chartreuse;
+}
+
+.foodSquare {
+    background-color: blueviolet;
+}
